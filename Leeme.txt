@@ -1,0 +1,61 @@
+El proyecto está organizado de la siguiente manera:
+
+
+
+
+----------------------------
+
+	CÓDIGO
+
+----------------------------
+
+
+- CogerBBDD.ipynb --> Libreta de python con la cual se ha obtenido la base de datos.
+
+- Modelos.ipynb --> Libreta de python en la cual están los primero modelos creados, con sus respectivos resultados.
+
+- ReglasAsociacion.ipynb --> Libreta de pyton en la cual se creó el primer modelo con reglas de asociación
+
+- ReglasAsociacion2.ipynb --> Libreta de pyton en la cual se creó el seugndo modelo con reglas de asociación
+
+- callbacks1.keras --> Archivo en el cual está guardado el mejor modelo obtenido durante la creación de la primera red neuronal
+
+- callbacks2.keras --> Archivo en el cual está guardado el mejor modelo obtenido durante la creación de la segunda red neuronal
+
+
+
+
+-----------------------------
+
+	BASE DE DATOS
+
+-----------------------------
+
+
+- bbdd.csv --> Primera base de datos creada para entrenar los primeros modelos y un modelo de reglas de asociación
+
+- bbdd2.csv --> Segunda base de datos creada para entrenar el segundo modelo de reglas de asociación
+
+- ListaGames2.txt --> Lista de las partidas obtenidas durante la obtención de la base de datos. Sirve como punto de guardado por si expira la clave API
+
+- BBDD.txt --> Documento de texto el cual tiene un enlace a una carpeta de OneDrive la cual contiene los siguientes archivos:
+
+	- Partidas.json --> Primer conjunto de datos obtenido con la API del juego, antes de ser tratados y filtrados a un .csv
+
+	- Partidas2.json --> Segundo conjunto de datos obtenido con la API del juego, antes de ser tratados y filtrados a un .csv
+
+
+
+
+---------------------------
+
+	OTROS
+
+---------------------------
+
+
+- catboost_info --> Carpeta que contiene datos para que el algoritmo catboost funcione
+
+- .gitattributes --> Archivo generado automáticamente por github para su correcto funcionamiento
+
+
